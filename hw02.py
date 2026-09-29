@@ -1,3 +1,5 @@
+# Name: Frida Li
+
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
@@ -7,6 +9,8 @@ def read_two_ints():
     
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    
+    # Convert the user's input from strings to integers
     x_string = input("give me x: ")
     x_int = int(x_string)
     y_string = input("give me y: ")
@@ -22,6 +26,8 @@ def compute_multadd(a, b):
     
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    
+    # Calculate the numerator and denominator
     c = a * b
     print("mult result:", c)
     d = a + b
